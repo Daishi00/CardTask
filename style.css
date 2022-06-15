@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.red {
+  border: solid 2px red;
+}
+.green {
+  border: solid 2px green;
+}
+.gray {
+  background-color: gray;
+}
